@@ -52,14 +52,17 @@ body {
 
 .one {
 	width: 50px;
+	margin-bottom: 10px;
 }
 .two {
 	width: 50px;
 	padding-left: 32px;
+	margin-bottom: 10px;
 }
 .three {
 	width: 90px;
 	padding-left: 32px;
+	margin-bottom: 10px;
 }
 .three a {
 	font-size:18px;
@@ -86,12 +89,14 @@ body {
 .person {
 	padding-left: 31px;
 	margin-top: 44px;
-	
 }
 .person a {
 	font-size:14px;
 	font-family:Microsoft YaHei;
 	color:rgba(102,102,102,1);
+}
+.person a:hover {
+	color:#00B4FF;
 }
 .banner{
 	height: 420px;
@@ -100,13 +105,20 @@ body {
 .biao1 {
 	width:190px;
 	height:420px;
-	background:rgba(0,0,0,1);
-	opacity:0.3;
+	background:rgba(0,0,0,0.3);
+	
 }
-.five {
-	color:rgba(255, 255, 255, 1);
+.biao a {
 	font-size: 14px;
 	padding-top: 27px;
+	font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 14px;
+    text-align: left;
+    cursor: pointer;
+    opacity:1;
+
 }
 
 .biao {
@@ -141,6 +153,15 @@ body {
 	color:rgba(5, 5, 5, 1);
 	font-size: 16px;
 }
+.nav a {
+	padding-bottom: 10px;
+}
+.nav a:hover {
+	border-bottom: solid 2px rgba(0,164,255,1);
+}
+.nav1 a:hover {
+	color:#00B4FF;
+}
 .nav1 .last {
 	border: none;
 }
@@ -169,6 +190,9 @@ body {
 }
 .all a{
 	color: rgba(165, 165, 165, 1);
+}
+.all a:hover {
+	color: #00B4FF;
 }
 .class {
 	float: left;
@@ -226,6 +250,9 @@ body {
 	color: rgba(134, 134, 134, 1);
 	font-size: 16px;
 }
+.nav3 a:hover {
+	color: #00B4FF;
+}
 .all1 {
 	float: right;
 	padding-right: 31px;
@@ -234,6 +261,9 @@ body {
 }
 .all1 a {
 	color: rgba(165, 165, 165, 1);
+}
+.all1 a:hover {
+	color: #00B4FF;
 }
 .tuijian2 {
 	float: left;
@@ -348,19 +378,17 @@ body {
 	background: url('../images/20154325104317144 (1).png') no-repeat;
 }
 .bottom{
-    width:1917px;
 	height:417px;
-	background:rgba(255,255,255,1) ;
+	background:rgba(255,255,255,1) center center;
 	margin-top:73px;
 }
 .bottom-yi {
 	float: left;
 	width: 400px;
-	background: center center;
+	padding-left: 20px;
 }
 .xlzx {
 	height: 36px;
-	padding-left: 20px;
 	padding-top: 124px;
 }
 .xlzx  p {
@@ -373,7 +401,6 @@ body {
 .zhili {
 	height: 12px;
 	width: 380px;
-	margin-left: 20px;
 	padding-top: 35px;
 	float: left;
 }
@@ -422,6 +449,9 @@ body {
 	font-size: 12px;
 	line-height: 21px;
 }
+.lb a:hover {
+	color: #00B4FF;
+}
 .bottom-san {
 	height: 130px;
 	width: 100px;
@@ -445,6 +475,9 @@ body {
 	font-size: 12px;
 	line-height: 21px;
 }
+.zn a:hover {
+	color: #00B4FF;
+}
 .bottom-si {
 	height: 130px;
 	width: 100px;
@@ -467,4 +500,7 @@ body {
 	color: rgba(51, 51, 51, 1);
 	font-size: 12px;
 	line-height: 21px;
+}
+.hb a:hover {
+	color: #00B4FF;
 }
