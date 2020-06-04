@@ -172,6 +172,7 @@ body {
 }
 .nav1 a:hover {
 	color:#00B4FF;
+	font-weight:bold;
 }
 .nav1 .last {
 	border: none;
